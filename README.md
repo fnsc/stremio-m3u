@@ -1,56 +1,56 @@
-# 📺 Stremio to M3U Playlist
+# Stremio to M3U Playlist
 
-Converte automaticamente um addon do Stremio para playlist M3U.
+Automatically converts a Stremio addon into an M3U playlist.
 
-## 🔗 Link da Playlist
+## Playlist Link
 
 ```
-https://raw.githubusercontent.com/SEU_USUARIO/SEU_REPOSITORIO/main/playlist.m3u
+https://raw.githubusercontent.com/fnsc/stremio-m3u/main/playlist.m3u
 ```
 
-> ⚠️ **Substitua `SEU_USUARIO` e `SEU_REPOSITORIO` pelos seus dados!**
+> **Replace `YOUR_USER` and `YOUR_REPOSITORY` with your own data!**
 
-## ⚙️ Como funciona
+## How it works
 
-- A playlist é atualizada **automaticamente a cada 6 horas**
-- Você também pode atualizar manualmente em: `Actions` → `Atualizar Playlist M3U` → `Run workflow`
+- The playlist is updated **automatically every 6 hours**
+- You can also update it manually at: `Actions` → `Update M3U Playlist` → `Run workflow`
 
-## 🛠️ Configuração
+## Setup
 
-### Alterar o addon de origem
+### Change the source addon
 
-1. Vá em `Settings` → `Secrets and variables` → `Actions` → `Variables`
-2. Crie uma variável chamada `ADDON_URL`
-3. Coloque a URL do seu addon (ex: `https://exemplo.baby-beamup.club/`)
+1. Go to `Settings` → `Secrets and variables` → `Actions` → `Variables`
+2. Create a variable called `ADDON_URL`
+3. Enter the URL of your addon (e.g.: `https://example.baby-beamup.club/`)
 
-Ou edite diretamente no arquivo `stremio_to_m3u.py`:
+Or edit directly in the `stremio_to_m3u.py` file:
 ```python
-ADDON_URL = 'https://sua-url-aqui/'
+ADDON_URL = 'https://your-url-here/'
 ```
 
-### Alterar frequência de atualização
+### Change update frequency
 
-Edite o arquivo `.github/workflows/update-playlist.yml`:
+Edit the `.github/workflows/update-playlist.yml` file:
 
 ```yaml
 schedule:
-  - cron: '0 */6 * * *'  # A cada 6 horas
+  - cron: '0 */6 * * *'  # Every 6 hours
 ```
 
-Exemplos:
-- `'0 */1 * * *'` = a cada 1 hora
-- `'0 */12 * * *'` = a cada 12 horas  
-- `'0 0 * * *'` = uma vez por dia (meia-noite)
+Examples:
+- `'0 */1 * * *'` = every 1 hour
+- `'0 */12 * * *'` = every 12 hours
+- `'0 0 * * *'` = once a day (midnight)
 
-## 📱 Como usar a playlist
+## How to use the playlist
 
-Cole o link em qualquer player IPTV:
+Paste the link into any IPTV player:
 
-- **VLC**: Mídia → Abrir Fluxo de Rede → Cole o link
-- **Kodi**: Adicionar lista M3U no PVR IPTV Simple Client
-- **TiviMate**: Adicionar playlist → M3U Playlist → Cole o link
-- **IPTV Smarters**: Adicionar usuário → Load Playlist → M3U URL
+- **VLC**: Media → Open Network Stream → Paste the link
+- **Kodi**: Add M3U list in PVR IPTV Simple Client
+- **TiviMate**: Add playlist → M3U Playlist → Paste the link
+- **IPTV Smarters**: Add user → Load Playlist → M3U URL
 
-## 📝 Licença
+## License
 
-Uso pessoal. Não hospeda nenhum conteúdo, apenas converte links públicos.
+Personal use. Does not host any content, only converts public links.

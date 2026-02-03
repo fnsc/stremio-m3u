@@ -1,0 +1,45 @@
+name: Atualizar Playlist M3U
+
+on:
+  # Roda automaticamente a cada 6 horas
+  schedule:
+    - cron: '0 */6 * * *'
+  
+  # Permite rodar manualmente pelo GitHub
+  workflow_dispatch:
+  
+  # Roda quando fizer push no main
+  push:
+    branches:
+      - main
+    paths:
+      - 'stremio_to_m3u.py'
+
+jobs:
+  update-playlist:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout do repositório
+        uses: actions/checkout@v4
+      
+      - name: Configurar Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Instalar dependências
+        run: pip install requests
+      
+      - name: Gerar playlist M3U
+        env:
+          ADDON_URL: ${{ vars.ADDON_URL || 'https://da5f663b4690-minhatv.baby-beamup.club/' }}
+          OUTPUT_FILE: 'playlist.m3u'
+        run: python stremio_to_m3u.py
+      
+      - name: Commit e push das alterações
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add playlist.m3u
+          git diff --quiet && git diff --staged --quiet || (git commit -m "🔄 Playlist atualizada - $(date -u '+%Y-%m-%d %H:%M') UTC" && git push)

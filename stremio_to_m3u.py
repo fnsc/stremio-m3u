@@ -147,6 +147,9 @@ def format_m3u(channels: tuple[Channel, ...], timestamp: str) -> str:
 # ---------------------------------------------------------------------------
 
 
+MAX_WORKERS = 10
+
+
 def load_config() -> Config:
     return Config(
         addon_url=os.environ.get(
@@ -157,19 +160,31 @@ def load_config() -> Config:
     )
 
 
-def fetch_manifest(base_url: str) -> dict:
+def create_session() -> requests.Session:
+    session = requests.Session()
+    adapter = requests.adapters.HTTPAdapter(
+        pool_connections=MAX_WORKERS, pool_maxsize=MAX_WORKERS
+    )
+    session.mount("http://", adapter)
+    session.mount("https://", adapter)
+    return session
+
+
+def fetch_manifest(session: requests.Session, base_url: str) -> dict:
     url = build_manifest_url(base_url)
     print(f"Fetching manifest: {url}")
-    response = requests.get(url, timeout=30)
+    response = session.get(url, timeout=30)
     response.raise_for_status()
     return response.json()
 
 
-def fetch_catalog(base_url: str, catalog_ref: CatalogRef) -> Optional[list]:
+def fetch_catalog(
+    session: requests.Session, base_url: str, catalog_ref: CatalogRef
+) -> Optional[list]:
     url = build_catalog_url(base_url, catalog_ref.type, catalog_ref.id)
     print(f"Fetching catalog: {url}")
     try:
-        response = requests.get(url, timeout=30)
+        response = session.get(url, timeout=30)
         response.raise_for_status()
         data = response.json()
         return data.get("metas", [])
@@ -178,10 +193,12 @@ def fetch_catalog(base_url: str, catalog_ref: CatalogRef) -> Optional[list]:
         return None
 
 
-def fetch_stream(base_url: str, type: str, id: str) -> Optional[dict]:
+def fetch_stream(
+    session: requests.Session, base_url: str, type: str, id: str
+) -> Optional[dict]:
     url = build_stream_url(base_url, type, id)
     try:
-        response = requests.get(url, timeout=30)
+        response = session.get(url, timeout=30)
         response.raise_for_status()
         return response.json()
     except Exception:
@@ -189,10 +206,10 @@ def fetch_stream(base_url: str, type: str, id: str) -> Optional[dict]:
 
 
 def resolve_channel(
-    base_url: str, catalog_ref: CatalogRef, meta: dict
+    session: requests.Session, base_url: str, catalog_ref: CatalogRef, meta: dict
 ) -> Optional[Channel]:
     item_id = meta.get("id")
-    stream_data = fetch_stream(base_url, catalog_ref.type, item_id)
+    stream_data = fetch_stream(session, base_url, catalog_ref.type, item_id)
     stream_info = extract_stream_info(stream_data)
     if stream_info is None:
         return None
@@ -214,13 +231,13 @@ def filter_metas_by_quality(
     ]
 
 
-MAX_WORKERS = 10
-
-
 def resolve_catalog_channels(
-    base_url: str, catalog_ref: CatalogRef, quality_filter: str = ""
+    session: requests.Session,
+    base_url: str,
+    catalog_ref: CatalogRef,
+    quality_filter: str = "",
 ) -> tuple[Channel, ...]:
-    metas = fetch_catalog(base_url, catalog_ref)
+    metas = fetch_catalog(session, base_url, catalog_ref)
     if metas is None:
         return ()
     total = len(metas)
@@ -236,7 +253,7 @@ def resolve_catalog_channels(
     resolved: list[Channel] = []
     with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
         future_to_meta = {
-            pool.submit(resolve_channel, base_url, catalog_ref, meta): meta
+            pool.submit(resolve_channel, session, base_url, catalog_ref, meta): meta
             for meta in metas
         }
         for future in as_completed(future_to_meta):
@@ -253,13 +270,16 @@ def resolve_catalog_channels(
 
 
 def resolve_all_channels(
-    base_url: str, manifest: Manifest, quality_filter: str = ""
+    session: requests.Session,
+    base_url: str,
+    manifest: Manifest,
+    quality_filter: str = "",
 ) -> tuple[Channel, ...]:
     return tuple(
         channel
         for catalog_ref in manifest.catalogs
         for channel in resolve_catalog_channels(
-            base_url, catalog_ref, quality_filter
+            session, base_url, catalog_ref, quality_filter
         )
     )
 
@@ -285,8 +305,10 @@ def main() -> None:
     print(f"   Quality filter: {config.quality_filter or 'none (all channels)'}")
     print("=" * 60)
 
+    session = create_session()
+
     try:
-        raw_manifest = fetch_manifest(config.addon_url)
+        raw_manifest = fetch_manifest(session, config.addon_url)
     except Exception as e:
         print(f"Error fetching manifest: {e}")
         sys.exit(1)
@@ -298,7 +320,7 @@ def main() -> None:
     print(f"\nCatalogs found: {len(manifest.catalogs)}")
 
     all_channels = resolve_all_channels(
-        config.addon_url, manifest, config.quality_filter
+        session, config.addon_url, manifest, config.quality_filter
     )
 
     if not all_channels:

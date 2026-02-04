@@ -38,7 +38,7 @@ jobs:
         env:
           ADDON_URL: ${{ vars.ADDON_URL || 'https://da5f663b4690-minhatv.baby-beamup.club/' }}
           OUTPUT_FILE: 'playlist.m3u'
-          QUALITY_FILTER: ${{ vars.QUALITY_FILTER || 'FHD' }}
+          QUALITY_FILTER: ${{ vars.QUALITY_FILTER || 'FHD,UHD' }}
         run: python stremio_to_m3u.py
 
       - name: Commit and push changes

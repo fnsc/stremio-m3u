@@ -22,6 +22,7 @@ import requests
 class Config:
     addon_url: str
     output_file: str
+    quality_filter: str
 
 
 @dataclass(frozen=True)
@@ -151,6 +152,7 @@ def load_config() -> Config:
             "ADDON_URL", "https://da5f663b4690-minhatv.baby-beamup.club/"
         ),
         output_file=os.environ.get("OUTPUT_FILE", "playlist.m3u"),
+        quality_filter=os.environ.get("QUALITY_FILTER", ""),
     )
 
 
@@ -196,13 +198,36 @@ def resolve_channel(
     return meta_to_channel(meta, stream_info, catalog_ref.name)
 
 
+def filter_metas_by_quality(
+    metas: list[dict], quality_filter: str
+) -> list[dict]:
+    if not quality_filter:
+        return metas
+    keywords = [k.strip().upper() for k in quality_filter.split(",") if k.strip()]
+    if not keywords:
+        return metas
+    return [
+        m
+        for m in metas
+        if any(kw in m.get("name", "").upper() for kw in keywords)
+    ]
+
+
 def resolve_catalog_channels(
-    base_url: str, catalog_ref: CatalogRef
+    base_url: str, catalog_ref: CatalogRef, quality_filter: str = ""
 ) -> tuple[Channel, ...]:
     metas = fetch_catalog(base_url, catalog_ref)
     if metas is None:
         return ()
-    print(f"   Found {len(metas)} items in '{catalog_ref.name}'")
+    total = len(metas)
+    metas = filter_metas_by_quality(metas, quality_filter)
+    if quality_filter:
+        print(
+            f"   Found {total} items in '{catalog_ref.name}', "
+            f"{len(metas)} match filter '{quality_filter}'"
+        )
+    else:
+        print(f"   Found {total} items in '{catalog_ref.name}'")
     resolved: list[Channel] = []
     for meta in metas:
         channel = resolve_channel(base_url, catalog_ref, meta)
@@ -215,12 +240,14 @@ def resolve_catalog_channels(
 
 
 def resolve_all_channels(
-    base_url: str, manifest: Manifest
+    base_url: str, manifest: Manifest, quality_filter: str = ""
 ) -> tuple[Channel, ...]:
     return tuple(
         channel
         for catalog_ref in manifest.catalogs
-        for channel in resolve_catalog_channels(base_url, catalog_ref)
+        for channel in resolve_catalog_channels(
+            base_url, catalog_ref, quality_filter
+        )
     )
 
 
@@ -242,6 +269,7 @@ def main() -> None:
     print("=" * 60)
     print(f"   Addon: {config.addon_url}")
     print(f"   Output: {config.output_file}")
+    print(f"   Quality filter: {config.quality_filter or 'none (all channels)'}")
     print("=" * 60)
 
     try:
@@ -256,7 +284,9 @@ def main() -> None:
     print(f"   Version: {manifest.version}")
     print(f"\nCatalogs found: {len(manifest.catalogs)}")
 
-    all_channels = resolve_all_channels(config.addon_url, manifest)
+    all_channels = resolve_all_channels(
+        config.addon_url, manifest, config.quality_filter
+    )
 
     if not all_channels:
         print("\nNo channels found.")

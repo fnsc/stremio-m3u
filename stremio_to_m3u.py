@@ -6,6 +6,7 @@ Converts Stremio addons to M3U playlists
 
 import os
 import sys
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from dataclasses import dataclass
 from datetime import datetime
 from typing import Optional
@@ -213,6 +214,9 @@ def filter_metas_by_quality(
     ]
 
 
+MAX_WORKERS = 10
+
+
 def resolve_catalog_channels(
     base_url: str, catalog_ref: CatalogRef, quality_filter: str = ""
 ) -> tuple[Channel, ...]:
@@ -228,14 +232,23 @@ def resolve_catalog_channels(
         )
     else:
         print(f"   Found {total} items in '{catalog_ref.name}'")
+
     resolved: list[Channel] = []
-    for meta in metas:
-        channel = resolve_channel(base_url, catalog_ref, meta)
-        if channel is not None:
-            resolved.append(channel)
-            print(f"   ✓ {channel.name}")
-        else:
-            print(f"   ✗ {meta.get('name', 'No Name')}")
+    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
+        future_to_meta = {
+            pool.submit(resolve_channel, base_url, catalog_ref, meta): meta
+            for meta in metas
+        }
+        for future in as_completed(future_to_meta):
+            meta = future_to_meta[future]
+            channel = future.result()
+            if channel is not None:
+                resolved.append(channel)
+                print(f"   ✓ {channel.name}")
+            else:
+                print(f"   ✗ {meta.get('name', 'No Name')}")
+
+    resolved.sort(key=lambda ch: ch.name)
     return tuple(resolved)
 
 

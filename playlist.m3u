@@ -1,7 +1,7 @@
 #EXTM3U
 # Automatically generated playlist
-# Updated at: 2026-02-10 18:27:51 UTC
-# Total channels: 109
+# Updated at: 2026-02-11 00:23:27 UTC
+# Total channels: 112
 
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/A&E.png" group-title="Minha TV",A&E FHD
 http://nille121.com:80/live/11510295/p883A3269U/666.m3u8
@@ -17,10 +17,14 @@ http://nille121.com:80/live/11510295/p883A3269U/284601.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/284601.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/Swin.png" group-title="Minha TV",Adult Swim FHD
 http://nille121.com:80/live/11510295/p883A3269U/376344.m3u8
+#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/ANIMALPLANET.png" group-title="Minha TV",Animal Planet FHD
+http://nille121.com:80/live/11510295/p883A3269U/2602.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/ARTE1.png" group-title="Minha TV",Arte 1 FHD
 http://nille121.com:80/live/11510295/p883A3269U/2607.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/BANDNEWS.png" group-title="Minha TV",Band News FHD
 http://nille121.com:80/live/11510295/p883A3269U/469.m3u8
+#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/BAND.png" group-title="Minha TV",Band SP FHD
+http://nille121.com:80/live/11510295/p883A3269U/255465.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/CNNBRASIL.png" group-title="Minha TV",CNN Brasil FHD
 http://nille121.com:80/live/11510295/p883A3269U/474.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/SONYCHANNEL.png" group-title="Minha TV",Canal Sony FHD
@@ -65,6 +69,8 @@ http://nille121.com:80/live/11510295/p883A3269U/215.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/284580.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/ESPN.png" group-title="Minha TV",ESPN 3 UHD
 http://nille121.com:80/live/11510295/p883A3269U/284580.m3u8
+#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/ESPN.png" group-title="Minha TV",ESPN 4 UHD
+http://nille121.com:80/live/11510295/p883A3269U/284581.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/ESPN.png" group-title="Minha TV",ESPN 4 UHD
 http://nille121.com:80/live/11510295/p883A3269U/284581.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/ESPN.png" group-title="Minha TV",ESPN FHD

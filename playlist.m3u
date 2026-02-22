@@ -1,7 +1,7 @@
 #EXTM3U
 # Automatically generated playlist
-# Updated at: 2026-02-22 12:11:28 UTC
-# Total channels: 108
+# Updated at: 2026-02-22 18:13:33 UTC
+# Total channels: 112
 
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/A&E.png" group-title="Minha TV",A&E FHD
 http://nille121.com:80/live/11510295/p883A3269U/666.m3u8
@@ -135,6 +135,8 @@ http://nille121.com:80/live/11510295/p883A3269U/2617.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/2632.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://media.jovempan.com.br/uploads/2018/07/JPNews-imagem-pagina-e1530887165749.png" group-title="Minha TV",Jovem Pan News FHD
 http://nille121.com:80/live/11510295/p883A3269U/483.m3u8
+#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/Portugal.png" group-title="Minha TV",Kuriakos TV FHD
+http://nille121.com:80/live/11510295/p883A3269U/112105.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/MEGAPIX.png" group-title="Minha TV",Megapix FHD
 http://nille121.com:80/live/11510295/p883A3269U/692.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/Portugal.png" group-title="Minha TV",PT-  UFC Figth Pass FHD
@@ -181,6 +183,8 @@ http://nille121.com:80/live/11510295/p883A3269U/264555.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/738.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/TNT.png" group-title="Minha TV",TNT UHD
 http://nille121.com:80/live/11510295/p883A3269U/21285.m3u8
+#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/Portugal.png" group-title="Minha TV",TVI Reality FHD
+http://nille121.com:80/live/11510295/p883A3269U/112114.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/TELECINE.png" group-title="Minha TV",Telecine Action FHD
 http://nille121.com:80/live/11510295/p883A3269U/615.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/TELECINE.png" group-title="Minha TV",Telecine Action UHD
@@ -207,6 +211,8 @@ http://nille121.com:80/live/11510295/p883A3269U/284599.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/284599.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/TELECINE.png" group-title="Minha TV",Telecine Touch FHD
 http://nille121.com:80/live/11510295/p883A3269U/589.m3u8
+#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/Portugal.png" group-title="Minha TV",Toros TV FHD
+http://nille121.com:80/live/11510295/p883A3269U/112074.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/UNIVERSALTV.png" group-title="Minha TV",Universal TV FHD
 http://nille121.com:80/live/11510295/p883A3269U/743.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/UNIVERSALTV.png" group-title="Minha TV",Universal TV UHD
@@ -219,3 +225,5 @@ http://nille121.com:80/live/11510295/p883A3269U/2537.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/749.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/WARNERCHANNEL.png" group-title="Minha TV",Warner LEG FHD
 http://nille121.com:80/live/11510295/p883A3269U/543978.m3u8
+#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/Portugal.png" group-title="Minha TV",Zap Viva FHD
+http://nille121.com:80/live/11510295/p883A3269U/112104.m3u8

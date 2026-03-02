@@ -1,7 +1,7 @@
 #EXTM3U
 # Automatically generated playlist
-# Updated at: 2026-03-02 06:23:40 UTC
-# Total channels: 112
+# Updated at: 2026-03-02 12:12:58 UTC
+# Total channels: 110
 
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/A&E.png" group-title="Minha TV",A&E FHD
 http://nille121.com:80/live/11510295/p883A3269U/666.m3u8
@@ -39,8 +39,6 @@ http://nille121.com:80/live/11510295/p883A3269U/21230.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/110683.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/CAZETV.png" group-title="Minha TV",CazeTV FHD
 http://nille121.com:80/live/11510295/p883A3269U/254102.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/CINEMAX.png" group-title="Minha TV",Cinemax FHD
-http://nille121.com:80/live/11510295/p883A3269U/682.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/COMBATE.png" group-title="Minha TV",Combate FHD
 http://nille121.com:80/live/11510295/p883A3269U/240.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/DISCOVERYCHANNEL.png" group-title="Minha TV",Disc. Channel FHD
@@ -51,8 +49,6 @@ http://nille121.com:80/live/11510295/p883A3269U/284605.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/284605.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/DISCOVERYHOME&HEALTH.png" group-title="Minha TV",Disc. Home &  Health FHD
 http://nille121.com:80/live/11510295/p883A3269U/2572.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/DISCOVERYWORLD.png" group-title="Minha TV",Disc. World FHD
-http://nille121.com:80/live/11510295/p883A3269U/2597.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/DISCOVERYKIDS.png" group-title="Minha TV",Discovery Kids FHD
 http://nille121.com:80/live/11510295/p883A3269U/364.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/disneyplus.png" group-title="Minha TV",Disney + 1 FHD

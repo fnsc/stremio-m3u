@@ -1,7 +1,7 @@
 #EXTM3U
 # Automatically generated playlist
-# Updated at: 2026-03-02 18:18:46 UTC
-# Total channels: 111
+# Updated at: 2026-03-03 00:18:56 UTC
+# Total channels: 112
 
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/A&E.png" group-title="Minha TV",A&E FHD
 http://nille121.com:80/live/11510295/p883A3269U/666.m3u8
@@ -99,6 +99,8 @@ http://nille121.com:80/live/11510295/p883A3269U/21319.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/289881.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/GLOBO.png" group-title="Minha TV",Globo SP UHD
 http://nille121.com:80/live/11510295/p883A3269U/289882.m3u8
+#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/GLOBONEWS.png" group-title="Minha TV",GloboNews FHD
+http://nille121.com:80/live/11510295/p883A3269U/479.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/GLOBONEWS.png" group-title="Minha TV",GloboNews UHD
 http://nille121.com:80/live/11510295/p883A3269U/284589.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/GLOBONEWS.png" group-title="Minha TV",GloboNews UHD

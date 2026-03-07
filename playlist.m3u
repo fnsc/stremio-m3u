@@ -1,14 +1,12 @@
 #EXTM3U
 # Automatically generated playlist
-# Updated at: 2026-03-07 12:12:10 UTC
-# Total channels: 112
+# Updated at: 2026-03-07 18:09:33 UTC
+# Total channels: 110
 
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/A&E.png" group-title="Minha TV",A&E FHD
 http://nille121.com:80/live/11510295/p883A3269U/666.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/AMC.png" group-title="Minha TV",AMC FHD
 http://nille121.com:80/live/11510295/p883A3269U/671.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/AMC.png" group-title="Minha TV",AMC UHD
-http://nille121.com:80/live/11510295/p883A3269U/284602.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/AXN.png" group-title="Minha TV",AXN FHD
 http://nille121.com:80/live/11510295/p883A3269U/676.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/AXN.png" group-title="Minha TV",AXN UHD
@@ -79,8 +77,6 @@ http://nille121.com:80/live/11510295/p883A3269U/309458.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/21315.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/Portugal.png" group-title="Minha TV",FOX Life FHD
 http://nille121.com:80/live/11510295/p883A3269U/111992.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/FOXSPORTS.png" group-title="Minha TV",FOX Sports 2 UHD
-http://nille121.com:80/live/11510295/p883A3269U/284583.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/FOODNETWORK.png" group-title="Minha TV",Food Network FHD
 http://nille121.com:80/live/11510295/p883A3269U/2480.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/GLOBO.png" group-title="Minha TV",GLOBO SP UHD

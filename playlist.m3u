@@ -1,7 +1,7 @@
 #EXTM3U
 # Automatically generated playlist
-# Updated at: 2026-05-10 06:52:46 UTC
-# Total channels: 414
+# Updated at: 2026-05-10 12:16:07 UTC
+# Total channels: 412
 
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/A&E.png" group-title="Minha TV",A&E FHD
 http://nille121.com:80/live/11510295/p883A3269U/666.m3u8
@@ -415,8 +415,6 @@ http://nille121.com:80/live/11510295/p883A3269U/18751.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/543987.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/HBO.png" group-title="Minha TV",HBO MUNDI FHD
 http://nille121.com:80/live/11510295/p883A3269U/18771.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/HBO.png" group-title="Minha TV",HBO MUNDI LEG FHD
-http://nille121.com:80/live/11510295/p883A3269U/559668.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/HBO.png" group-title="Minha TV",HBO MUNDI UHD
 http://nille121.com:80/live/11510295/p883A3269U/21254.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/HBOMAX.png" group-title="Minha TV",HBO Max 1 FHD
@@ -649,8 +647,6 @@ http://nille121.com:80/live/11510295/p883A3269U/80170.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/198.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/REDEVIDA.png" group-title="Minha TV",Rede Vida UHD
 http://nille121.com:80/live/11510295/p883A3269U/369199.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/SBT.png" group-title="Minha TV",SBT DF FHD
-http://nille121.com:80/live/11510295/p883A3269U/244171.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/SBT.png" group-title="Minha TV",SBT ITAPOAN FHD
 http://nille121.com:80/live/11510295/p883A3269U/244179.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/SBT.png" group-title="Minha TV",SBT REDE MASSA FHD

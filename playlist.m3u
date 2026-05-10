@@ -1,18 +1,12 @@
 #EXTM3U
 # Automatically generated playlist
-# Updated at: 2026-05-10 12:16:07 UTC
-# Total channels: 412
+# Updated at: 2026-05-10 18:19:33 UTC
+# Total channels: 377
 
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/A&E.png" group-title="Minha TV",A&E FHD
-http://nille121.com:80/live/11510295/p883A3269U/666.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/A&E.png" group-title="Minha TV",A&E UHD
-http://nille121.com:80/live/11510295/p883A3269U/21292.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/AMC.png" group-title="Minha TV",AMC FHD
 http://nille121.com:80/live/11510295/p883A3269U/671.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/AMC.png" group-title="Minha TV",AMC LEG FHD
 http://nille121.com:80/live/11510295/p883A3269U/559659.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/AMC.png" group-title="Minha TV",AMC UHD
-http://nille121.com:80/live/11510295/p883A3269U/284602.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/AXN.png" group-title="Minha TV",AXN FHD
 http://nille121.com:80/live/11510295/p883A3269U/676.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/AXN.png" group-title="Minha TV",AXN UHD
@@ -21,8 +15,6 @@ http://nille121.com:80/live/11510295/p883A3269U/284601.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/284601.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/Swin.png" group-title="Minha TV",Adult Swim FHD
 http://nille121.com:80/live/11510295/p883A3269U/376344.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/AGROMAIS.png" group-title="Minha TV",AgroMais FHD
-http://nille121.com:80/live/11510295/p883A3269U/464.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/ANIMALPLANET.png" group-title="Minha TV",Animal Planet FHD
 http://nille121.com:80/live/11510295/p883A3269U/2602.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/ANIMALPLANET.png" group-title="Minha TV",Animal Planet UHD
@@ -55,18 +47,12 @@ http://nille121.com:80/live/11510295/p883A3269U/255474.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/255479.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/BAND.png" group-title="Minha TV",Band SP FHD
 http://nille121.com:80/live/11510295/p883A3269U/255465.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/BAND.png" group-title="Minha TV",Band SP UHD
-http://nille121.com:80/live/11510295/p883A3269U/255466.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/BANDSPORTS.png" group-title="Minha TV",Band Sports 4K UHD
 http://nille121.com:80/live/11510295/p883A3269U/234278.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/BANDSPORTS.png" group-title="Minha TV",Band Sports FHD
-http://nille121.com:80/live/11510295/p883A3269U/235.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/BANDSPORTS.png" group-title="Minha TV",Band Sports UHD
 http://nille121.com:80/live/11510295/p883A3269U/21225.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/BAND.png" group-title="Minha TV",Band Uberlandia FHD
 http://nille121.com:80/live/11510295/p883A3269U/255505.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/BoaVontade.png" group-title="Minha TV",Boa Vontade TV FHD
-http://nille121.com:80/live/11510295/p883A3269U/373659.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=https://fcf-sc.s3.sa-east-1.amazonaws.com/wp-content/uploads/2023/05/08221144/Brasileiro-Serie-C.jpeg" group-title="Minha TV",Brasileirao Serie D 1 FHD
 http://nille121.com:80/live/11510295/p883A3269U/283044.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/CNNBRASIL.png" group-title="Minha TV",CNN Brasil FHD
@@ -79,8 +65,6 @@ http://nille121.com:80/live/11510295/p883A3269U/527505.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/146.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=https://canalgoat.com.br/img/logo-composite.png" group-title="Minha TV",Canal Goat 1 FHD
 http://nille121.com:80/live/11510295/p883A3269U/274647.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=https://canalgoat.com.br/img/logo-composite.png" group-title="Minha TV",Canal Goat 2 FHD
-http://nille121.com:80/live/11510295/p883A3269U/232222.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/CANALRURAL.png" group-title="Minha TV",Canal Rural FHD
 http://nille121.com:80/live/11510295/p883A3269U/364662.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/SONYCHANNEL.png" group-title="Minha TV",Canal Sony FHD
@@ -113,20 +97,14 @@ http://nille121.com:80/live/11510295/p883A3269U/21231.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/240.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/COMBATE.png" group-title="Minha TV",Combate UHD
 http://nille121.com:80/live/11510295/p883A3269U/21232.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/COMEDYCENTRAL.png" group-title="Minha TV",Comedy Central FHD
-http://nille121.com:80/live/11510295/p883A3269U/687.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/COMEDYCENTRAL.png" group-title="Minha TV",Comedy Central UHD
 http://nille121.com:80/live/11510295/p883A3269U/284620.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/COMEDYCENTRAL.png" group-title="Minha TV",Comedy Central UHD
 http://nille121.com:80/live/11510295/p883A3269U/284620.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/CURTA!.jpg" group-title="Minha TV",Curta! FHD
-http://nille121.com:80/live/11510295/p883A3269U/2612.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/CURTA!.jpg" group-title="Minha TV",Curta! UHD
 http://nille121.com:80/live/11510295/p883A3269U/284614.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/DAZN.png" group-title="Minha TV",DAZN 1 FHD
 http://nille121.com:80/live/11510295/p883A3269U/229982.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=https://bc.marfeel.com/statics/www.tycsports.com/index/logo.png" group-title="Minha TV",DEPORTE | TYC SPORTS FHD
-http://nille121.com:80/live/11510295/p883A3269U/234286.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=https://bc.marfeel.com/statics/www.tycsports.com/index/logo.png" group-title="Minha TV",DEPORTE | TYC SPORTS FHD
 http://nille121.com:80/live/11510295/p883A3269U/234286.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/Portugal.png" group-title="Minha TV",DOG TV FHD
@@ -201,22 +179,12 @@ http://nille121.com:80/live/11510295/p883A3269U/563030.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/563029.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/ESPN.png" group-title="Minha TV",ESPN 6 FHD
 http://nille121.com:80/live/11510295/p883A3269U/563035.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/ESPN.png" group-title="Minha TV",ESPN 6 UHD
-http://nille121.com:80/live/11510295/p883A3269U/563034.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/ESPN.png" group-title="Minha TV",ESPN FHD
 http://nille121.com:80/live/11510295/p883A3269U/309458.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/ESPN.png" group-title="Minha TV",ESPN UHD
 http://nille121.com:80/live/11510295/p883A3269U/21315.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=https://play-lh.googleusercontent.com/Ai-PAj1jvQZ3w19r4ExZ2dHvESlbdHCSsQY49wfU9BKxg1llP3u-rnfbhKy37-JCnIo" group-title="Minha TV",Eventos Extras FHD
-http://nille121.com:80/live/11510295/p883A3269U/289716.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=" group-title="Minha TV",F1 TV PRO FHD
-http://nille121.com:80/live/11510295/p883A3269U/567233.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/Portugal.png" group-title="Minha TV",FOX FHD
 http://nille121.com:80/live/11510295/p883A3269U/111986.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/Portugal.png" group-title="Minha TV",FOX Life FHD
-http://nille121.com:80/live/11510295/p883A3269U/111992.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/FOXSPORTS.png" group-title="Minha TV",FOX Sports 2 UHD
-http://nille121.com:80/live/11510295/p883A3269U/284583.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/FASHIONTV.png" group-title="Minha TV",Fashion TV FHD
 http://nille121.com:80/live/11510295/p883A3269U/2476.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/FISHTV.png" group-title="Minha TV",Fish TV FHD
@@ -321,10 +289,6 @@ http://nille121.com:80/live/11510295/p883A3269U/289881.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/289882.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/GLOBO.png" group-title="Minha TV",Globo TV Anhanguera FHD
 http://nille121.com:80/live/11510295/p883A3269U/2449.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/GLOBO.png" group-title="Minha TV",Globo TV Anhanguera Palmas FHD
-http://nille121.com:80/live/11510295/p883A3269U/385607.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/GLOBO.png" group-title="Minha TV",Globo TV Asa Branca FHD
-http://nille121.com:80/live/11510295/p883A3269U/166720.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/GLOBO.png" group-title="Minha TV",Globo TV Bahia FHD
 http://nille121.com:80/live/11510295/p883A3269U/2425.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/GLOBO.png" group-title="Minha TV",Globo TV Centro America FHD
@@ -357,14 +321,8 @@ http://nille121.com:80/live/11510295/p883A3269U/2367.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/2446.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/GLOBO.png" group-title="Minha TV",Globo TV Mirante Sao Luis FHD
 http://nille121.com:80/live/11510295/p883A3269U/518709.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/GLOBO.png" group-title="Minha TV",Globo TV Morena FHD
-http://nille121.com:80/live/11510295/p883A3269U/274984.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/GLOBO.png" group-title="Minha TV",Globo TV Rio Sul FHD
-http://nille121.com:80/live/11510295/p883A3269U/2337.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/GLOBO.png" group-title="Minha TV",Globo TV Santa Cruz FHD
 http://nille121.com:80/live/11510295/p883A3269U/208574.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/GLOBO.png" group-title="Minha TV",Globo TV Sergipe FHD
-http://nille121.com:80/live/11510295/p883A3269U/2443.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/GLOBO.png" group-title="Minha TV",Globo TV Subae FHD
 http://nille121.com:80/live/11510295/p883A3269U/390951.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/GLOBO.png" group-title="Minha TV",Globo TV Sudoeste FHD
@@ -393,8 +351,6 @@ http://nille121.com:80/live/11510295/p883A3269U/284589.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/284589.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/GLOOB.png" group-title="Minha TV",Gloob FHD
 http://nille121.com:80/live/11510295/p883A3269U/377228.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/GLOOB.png" group-title="Minha TV",Gloob UHD
-http://nille121.com:80/live/11510295/p883A3269U/377227.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/GLOOBINHO.png" group-title="Minha TV",Gloobinho FHD
 http://nille121.com:80/live/11510295/p883A3269U/377232.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/GLOOBINHO.png" group-title="Minha TV",Gloobinho UHD
@@ -413,8 +369,8 @@ http://nille121.com:80/live/11510295/p883A3269U/21247.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/18751.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/HBO.png" group-title="Minha TV",HBO LEG FHD
 http://nille121.com:80/live/11510295/p883A3269U/543987.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/HBO.png" group-title="Minha TV",HBO MUNDI FHD
-http://nille121.com:80/live/11510295/p883A3269U/18771.m3u8
+#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/HBO.png" group-title="Minha TV",HBO MUNDI LEG FHD
+http://nille121.com:80/live/11510295/p883A3269U/559668.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/HBO.png" group-title="Minha TV",HBO MUNDI UHD
 http://nille121.com:80/live/11510295/p883A3269U/21254.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/HBOMAX.png" group-title="Minha TV",HBO Max 1 FHD
@@ -429,8 +385,6 @@ http://nille121.com:80/live/11510295/p883A3269U/121608.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/121612.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/HBOMAX.png" group-title="Minha TV",HBO Max 6 FHD
 http://nille121.com:80/live/11510295/p883A3269U/121616.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/HBOMAX.png" group-title="Minha TV",HBO Max 7 FHD
-http://nille121.com:80/live/11510295/p883A3269U/540389.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/HBO.png" group-title="Minha TV",HBO PLUS LEG FHD
 http://nille121.com:80/live/11510295/p883A3269U/559662.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/HBO.png" group-title="Minha TV",HBO POP FHD
@@ -449,10 +403,6 @@ http://nille121.com:80/live/11510295/p883A3269U/21250.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/284603.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/HBO.png" group-title="Minha TV",HBO UHD
 http://nille121.com:80/live/11510295/p883A3269U/284603.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/HBO.png" group-title="Minha TV",HBO XTREME FHD
-http://nille121.com:80/live/11510295/p883A3269U/18775.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/HBO.png" group-title="Minha TV",HBO XTREME LEG FHD
-http://nille121.com:80/live/11510295/p883A3269U/559674.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/HBO.png" group-title="Minha TV",HBO XTREME UHD
 http://nille121.com:80/live/11510295/p883A3269U/21255.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/HGTV.png" group-title="Minha TV",HGTV FHD
@@ -477,8 +427,6 @@ http://nille121.com:80/live/11510295/p883A3269U/250915.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/112105.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com/logoscanais/latinos.png" group-title="Minha TV",LAT | Discovery Channel FHD
 http://nille121.com:80/live/11510295/p883A3269U/249257.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com/logoscanais/latinos.png" group-title="Minha TV",LAT | GOLDEN PREMIER FHD
-http://nille121.com:80/live/11510295/p883A3269U/249259.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com/logoscanais/latinos.png" group-title="Minha TV",LAT | HBO  FHD
 http://nille121.com:80/live/11510295/p883A3269U/249244.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com/logoscanais/latinos.png" group-title="Minha TV",LAT | HBO FAMILY FHD
@@ -519,14 +467,8 @@ http://nille121.com:80/live/11510295/p883A3269U/372.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/21263.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/OFF.png" group-title="Minha TV",OFF FHD
 http://nille121.com:80/live/11510295/p883A3269U/253.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=https://play-lh.googleusercontent.com/Ai-PAj1jvQZ3w19r4ExZ2dHvESlbdHCSsQY49wfU9BKxg1llP3u-rnfbhKy37-JCnIo" group-title="Minha TV",Olympia TV FHD
-http://nille121.com:80/live/11510295/p883A3269U/289718.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/Portugal.png" group-title="Minha TV",PT-  UFC Figth Pass FHD
-http://nille121.com:80/live/11510295/p883A3269U/112088.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/ELEVENSPORTS.png" group-title="Minha TV",PT: Eleven Sport 4 FHD
 http://nille121.com:80/live/11510295/p883A3269U/565030.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/TVPAIETERNO.png" group-title="Minha TV",Pai Eterno FHD
-http://nille121.com:80/live/11510295/p883A3269U/206.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/PARAMOUNTPLUS.png" group-title="Minha TV",Paramount + 1 FHD
 http://nille121.com:80/live/11510295/p883A3269U/250563.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/PARAMOUNTPLUS.png" group-title="Minha TV",Paramount + 2 FHD
@@ -539,8 +481,6 @@ http://nille121.com:80/live/11510295/p883A3269U/368448.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/697.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/PARAMOUNTNETWORK.png" group-title="Minha TV",Paramount Network UHD
 http://nille121.com:80/live/11510295/p883A3269U/21265.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/PREMIERE.png" group-title="Minha TV",Premiere 2 FHD
-http://nille121.com:80/live/11510295/p883A3269U/499.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/PREMIERE.png" group-title="Minha TV",Premiere 2 UHD
 http://nille121.com:80/live/11510295/p883A3269U/284579.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/PREMIERE.png" group-title="Minha TV",Premiere 3 FHD
@@ -559,8 +499,6 @@ http://nille121.com:80/live/11510295/p883A3269U/519.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/21328.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/PREMIERE.png" group-title="Minha TV",Premiere 7 FHD
 http://nille121.com:80/live/11510295/p883A3269U/524.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/PREMIERE.png" group-title="Minha TV",Premiere 7 UHD
-http://nille121.com:80/live/11510295/p883A3269U/21329.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/PREMIERE.png" group-title="Minha TV",Premiere Clubes FHD
 http://nille121.com:80/live/11510295/p883A3269U/494.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/PREMIERE.png" group-title="Minha TV",Premiere Clubes UHD
@@ -609,12 +547,8 @@ http://nille121.com:80/live/11510295/p883A3269U/244093.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/528661.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/RECORDTV.png" group-title="Minha TV",RecordTV RJ INTERIOR FHD
 http://nille121.com:80/live/11510295/p883A3269U/244096.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/RECORDTV.png" group-title="Minha TV",RecordTV RS FHD
-http://nille121.com:80/live/11510295/p883A3269U/244107.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/RECORDTV.png" group-title="Minha TV",RecordTV SIC TV RONDÔNIA FHD
 http://nille121.com:80/live/11510295/p883A3269U/244149.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/RECORDTV.png" group-title="Minha TV",RecordTV SP FHD
-http://nille121.com:80/live/11510295/p883A3269U/244071.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/RECORDTV.png" group-title="Minha TV",RecordTV SP UHD
 http://nille121.com:80/live/11510295/p883A3269U/244074.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/RECORDTV.png" group-title="Minha TV",RecordTV SP UHD
@@ -633,8 +567,6 @@ http://nille121.com:80/live/11510295/p883A3269U/112080.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/364783.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/CNT.png" group-title="Minha TV",Rede CNT FHD
 http://nille121.com:80/live/11510295/p883A3269U/234481.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/REDEF.png" group-title="Minha TV",Rede Familia FHD
-http://nille121.com:80/live/11510295/p883A3269U/264927.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=https://redeminas.tv/wp-content/uploads/2020/09/Destaque-Home_RedeMinas2.png" group-title="Minha TV",Rede Minas FHD
 http://nille121.com:80/live/11510295/p883A3269U/274516.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/REDESUPER.png" group-title="Minha TV",Rede Super FHD
@@ -647,6 +579,8 @@ http://nille121.com:80/live/11510295/p883A3269U/80170.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/198.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/REDEVIDA.png" group-title="Minha TV",Rede Vida UHD
 http://nille121.com:80/live/11510295/p883A3269U/369199.m3u8
+#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/SBT.png" group-title="Minha TV",SBT DF FHD
+http://nille121.com:80/live/11510295/p883A3269U/244171.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/SBT.png" group-title="Minha TV",SBT ITAPOAN FHD
 http://nille121.com:80/live/11510295/p883A3269U/244179.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/SBT.png" group-title="Minha TV",SBT REDE MASSA FHD
@@ -751,8 +685,6 @@ http://nille121.com:80/live/11510295/p883A3269U/625.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/559656.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/TELECINE.png" group-title="Minha TV",Telecine Fun UHD
 http://nille121.com:80/live/11510295/p883A3269U/21281.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/TELECINE.png" group-title="Minha TV",Telecine Pipoca FHD
-http://nille121.com:80/live/11510295/p883A3269U/630.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/TELECINE.png" group-title="Minha TV",Telecine Pipoca LEG FHD
 http://nille121.com:80/live/11510295/p883A3269U/543960.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/TELECINE.png" group-title="Minha TV",Telecine Pipoca UHD
@@ -793,8 +725,6 @@ http://nille121.com:80/live/11510295/p883A3269U/285544.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/285663.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/EUA.png" group-title="Minha TV",USL- FOX DEPORTES FHD
 http://nille121.com:80/live/11510295/p883A3269U/285669.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/EUA.png" group-title="Minha TV",USL- FYI FHD
-http://nille121.com:80/live/11510295/p883A3269U/285705.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/EUA.png" group-title="Minha TV",USL- HISTORY CHANNEL | UHD
 http://nille121.com:80/live/11510295/p883A3269U/285726.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/EUA.png" group-title="Minha TV",USL- OWN CHANNEL FHD

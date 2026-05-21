@@ -1,7 +1,7 @@
 #EXTM3U
 # Automatically generated playlist
-# Updated at: 2026-05-21 13:03:21 UTC
-# Total channels: 414
+# Updated at: 2026-05-21 18:36:18 UTC
+# Total channels: 413
 
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/A&E.png" group-title="Minha TV",A&E FHD
 http://nille121.com:80/live/11510295/p883A3269U/666.m3u8
@@ -621,8 +621,6 @@ http://nille121.com:80/live/11510295/p883A3269U/244071.m3u8
 http://nille121.com:80/live/11510295/p883A3269U/244074.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/RECORDTV.png" group-title="Minha TV",RecordTV SP UHD
 http://nille121.com:80/live/11510295/p883A3269U/244074.m3u8
-#EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/RECORDTV.png" group-title="Minha TV",RecordTV Tropical FHD
-http://nille121.com:80/live/11510295/p883A3269U/395392.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/RECORDTV.png" group-title="Minha TV",RecordTV UBERLANDIA FHD
 http://nille121.com:80/live/11510295/p883A3269U/244156.m3u8
 #EXTINF:-1 tvg-logo="https://da5f663b4690-proxyimage.baby-beamup.club/proxy-image/?url=http://beststorage4you.com:80/logoscanais/RECORDTV.png" group-title="Minha TV",RecordTV VILA REAL FHD

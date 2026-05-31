@@ -31,6 +31,7 @@ class CatalogRef:
     type: str
     id: str
     name: str
+    genres: tuple[str, ...] = ()
 
 
 @dataclass(frozen=True)
@@ -72,6 +73,11 @@ def build_catalog_url(base_url: str, type: str, id: str) -> str:
     return urljoin(_normalize_base(base_url), f"catalog/{type}/{id}.json")
 
 
+def build_catalog_genre_url(base_url: str, type: str, id: str, genre: str) -> str:
+    encoded = quote(genre, safe="")
+    return urljoin(_normalize_base(base_url), f"catalog/{type}/{id}/genre={encoded}.json")
+
+
 def build_stream_url(base_url: str, type: str, id: str) -> str:
     encoded_id = quote(id, safe="")
     return urljoin(_normalize_base(base_url), f"stream/{type}/{encoded_id}.json")
@@ -83,6 +89,12 @@ def parse_manifest(data: dict) -> Manifest:
             type=c.get("type", ""),
             id=c.get("id", ""),
             name=c.get("name", c.get("id", "")),
+            genres=tuple(
+                opt
+                for extra in c.get("extra", [])
+                if extra.get("name") == "genre"
+                for opt in extra.get("options", [])
+            ),
         )
         for c in data.get("catalogs", ())
     )
@@ -162,6 +174,7 @@ def load_config() -> Config:
 
 def create_session() -> requests.Session:
     session = requests.Session()
+    session.headers.update({"User-Agent": "Mozilla/5.0 (compatible; Stremio/4.4)"})
     adapter = requests.adapters.HTTPAdapter(
         pool_connections=MAX_WORKERS, pool_maxsize=MAX_WORKERS
     )
@@ -179,10 +192,15 @@ def fetch_manifest(session: requests.Session, base_url: str) -> dict:
 
 
 def fetch_catalog(
-    session: requests.Session, base_url: str, catalog_ref: CatalogRef
+    session: requests.Session,
+    base_url: str,
+    catalog_ref: CatalogRef,
+    genre: Optional[str] = None,
 ) -> Optional[list]:
-    url = build_catalog_url(base_url, catalog_ref.type, catalog_ref.id)
-    print(f"Fetching catalog: {url}")
+    if genre is not None:
+        url = build_catalog_genre_url(base_url, catalog_ref.type, catalog_ref.id, genre)
+    else:
+        url = build_catalog_url(base_url, catalog_ref.type, catalog_ref.id)
     try:
         response = session.get(url, timeout=30)
         response.raise_for_status()
@@ -206,14 +224,18 @@ def fetch_stream(
 
 
 def resolve_channel(
-    session: requests.Session, base_url: str, catalog_ref: CatalogRef, meta: dict
+    session: requests.Session,
+    base_url: str,
+    catalog_ref: CatalogRef,
+    meta: dict,
+    group: Optional[str] = None,
 ) -> Optional[Channel]:
     item_id = meta.get("id")
     stream_data = fetch_stream(session, base_url, catalog_ref.type, item_id)
     stream_info = extract_stream_info(stream_data)
     if stream_info is None:
         return None
-    return meta_to_channel(meta, stream_info, catalog_ref.name)
+    return meta_to_channel(meta, stream_info, group or catalog_ref.name)
 
 
 def filter_metas_by_quality(
@@ -237,33 +259,38 @@ def resolve_catalog_channels(
     catalog_ref: CatalogRef,
     quality_filter: str = "",
 ) -> tuple[Channel, ...]:
-    metas = fetch_catalog(session, base_url, catalog_ref)
-    if metas is None:
-        return ()
-    total = len(metas)
-    metas = filter_metas_by_quality(metas, quality_filter)
-    if quality_filter:
-        print(
-            f"   Found {total} items in '{catalog_ref.name}', "
-            f"{len(metas)} match filter '{quality_filter}'"
-        )
-    else:
-        print(f"   Found {total} items in '{catalog_ref.name}'")
+    genres_to_fetch: tuple[Optional[str], ...] = (
+        catalog_ref.genres if catalog_ref.genres else (None,)
+    )
 
     resolved: list[Channel] = []
-    with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
-        future_to_meta = {
-            pool.submit(resolve_channel, session, base_url, catalog_ref, meta): meta
-            for meta in metas
-        }
-        for future in as_completed(future_to_meta):
-            meta = future_to_meta[future]
-            channel = future.result()
-            if channel is not None:
-                resolved.append(channel)
-                print(f"   ✓ {channel.name}")
-            else:
-                print(f"   ✗ {meta.get('name', 'No Name')}")
+    seen_ids: set[str] = set()
+
+    for genre in genres_to_fetch:
+        metas = fetch_catalog(session, base_url, catalog_ref, genre=genre)
+        if not metas:
+            continue
+
+        group = genre if genre is not None else catalog_ref.name
+        new_metas = [m for m in metas if m.get("id") not in seen_ids]
+        seen_ids.update(m.get("id", "") for m in new_metas)
+        new_metas = filter_metas_by_quality(new_metas, quality_filter)
+
+        print(f"   '{group}': {len(new_metas)} items")
+
+        with ThreadPoolExecutor(max_workers=MAX_WORKERS) as pool:
+            future_to_meta = {
+                pool.submit(resolve_channel, session, base_url, catalog_ref, meta, group): meta
+                for meta in new_metas
+            }
+            for future in as_completed(future_to_meta):
+                meta = future_to_meta[future]
+                channel = future.result()
+                if channel is not None:
+                    resolved.append(channel)
+                    print(f"   ✓ {channel.name}")
+                else:
+                    print(f"   ✗ {meta.get('name', 'No Name')}")
 
     resolved.sort(key=lambda ch: ch.name)
     return tuple(resolved)

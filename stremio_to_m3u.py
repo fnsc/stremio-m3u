@@ -153,7 +153,7 @@ MAX_WORKERS = 10
 def load_config() -> Config:
     return Config(
         addon_url=os.environ.get(
-            "ADDON_URL", "https://da5f663b4690-minhatv.baby-beamup.club/"
+            "ADDON_URL", "https://kangaroostreams.hayd.uk/Brisbane/radio/ausports/nz/nzradio/nzsports/uktv/uksports/ustv/ussports/catv/casports/eusports/worldsports/epl/extras/exgrp-ca-dazn/exgrp-int-netflix-events/exgrp-int-dirtvision/exgrp-uk-epl/exgrp-uk-dazn/exgrp-au-kayo-sports/exgrp-uk-tnt-sports/exgrp-uk-sky-sports/exgrp-nz-sky-sport/exgrp-int-f1-tv/exgrp-uk-spfl/exgrp-int-rugby-events/exgrp-au-stan-sports-events/exgrp-ppv-events/"
         ),
         output_file=os.environ.get("OUTPUT_FILE", "playlist.m3u"),
         quality_filter=os.environ.get("QUALITY_FILTER", ""),

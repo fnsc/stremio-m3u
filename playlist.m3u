@@ -1,6 +1,6 @@
 #EXTM3U
 # Automatically generated playlist
-# Updated at: 2026-07-03 01:55:04 UTC
+# Updated at: 2026-07-03 13:48:28 UTC
 # Total channels: 2244
 
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-10-qld1024.png" group-title="Traditional Channels",10
@@ -527,10 +527,10 @@ https://c.mjh.nz/weather_in_90_seconds
 https://c.mjh.nz/weather_in_90_seconds
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-abc-90-seconds-weather1024.png" group-title="Sydney TV",ABC Weather in 90 Seconds
 https://c.mjh.nz/weather_in_90_seconds
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-radio-rv-24-7-absolute-cdfd921024.png" group-title="NZ Radio",Absolute Live FM
-https://i.mjh.nz/.r/radio-rv-24-7-absolute-cdfd92.m3u8
 #EXTINF:-1 group-title="NZ Radio",Absolute Live FM
 https://i.mjh.nz/.r/radio-ih-11390.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-radio-rv-24-7-absolute-cdfd921024.png" group-title="NZ Radio",Absolute Live FM
+https://i.mjh.nz/.r/radio-rv-24-7-absolute-cdfd92.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-radio-rv-acousticchill247-9ace131024.png" group-title="NZ Radio",Acoustic Chill
 https://i.mjh.nz/.r/radio-rv-acousticchill247-9ace13.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-radio-rv-acousticsunrise247-5a3df71024.png" group-title="NZ Radio",Acoustic Sunrise
@@ -811,10 +811,10 @@ https://i.mjh.nz/.r/bbc-news.m3u8
 https://i.mjh.nz/.r/bbc-news-fast.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-bbc-news1024.png" group-title="Adelaide TV",BBC News
 https://i.mjh.nz/.r/bbc-news.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-bbc-news1024.png" group-title="Canberra TV",BBC News
-https://i.mjh.nz/.r/bbc-news.m3u8
 #EXTINF:-1 group-title="Canberra TV",BBC News
 https://i.mjh.nz/.r/bbc-news-fast.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-bbc-news1024.png" group-title="Canberra TV",BBC News
+https://i.mjh.nz/.r/bbc-news.m3u8
 #EXTINF:-1 group-title="Darwin TV",BBC News
 https://i.mjh.nz/.r/bbc-news-fast.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-bbc-news1024.png" group-title="Darwin TV",BBC News
@@ -823,18 +823,18 @@ https://i.mjh.nz/.r/bbc-news.m3u8
 https://i.mjh.nz/.r/bbc-news-fast.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-bbc-news1024.png" group-title="Hobart TV",BBC News
 https://i.mjh.nz/.r/bbc-news.m3u8
-#EXTINF:-1 group-title="Melbourne TV",BBC News
-https://i.mjh.nz/.r/bbc-news-fast.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-bbc-news1024.png" group-title="Melbourne TV",BBC News
 https://i.mjh.nz/.r/bbc-news.m3u8
+#EXTINF:-1 group-title="Melbourne TV",BBC News
+https://i.mjh.nz/.r/bbc-news-fast.m3u8
 #EXTINF:-1 group-title="Perth TV",BBC News
 https://i.mjh.nz/.r/bbc-news-fast.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-bbc-news1024.png" group-title="Perth TV",BBC News
 https://i.mjh.nz/.r/bbc-news.m3u8
-#EXTINF:-1 group-title="Sydney TV",BBC News
-https://i.mjh.nz/.r/bbc-news-fast.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-bbc-news1024.png" group-title="Sydney TV",BBC News
 https://i.mjh.nz/.r/bbc-news.m3u8
+#EXTINF:-1 group-title="Sydney TV",BBC News
+https://i.mjh.nz/.r/bbc-news-fast.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-bbc-top-gear-247-fast1024.png" group-title="Other Channels",BBC Top Gear
 https://i.mjh.nz/.r/bbc-top-gear-247-fast.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-bbc-top-gear-247-fast1024.png" group-title="Adelaide TV",BBC Top Gear
@@ -1059,10 +1059,10 @@ https://i.mjh.nz/.r/radio-rv-breezerickdees247-ce10c4.m3u8
 https://i.mjh.nz/.r/radio-rv-brianfm-2b14b1.m3u8
 #EXTINF:-1 group-title="NZ Radio",Brian FM Alex & Cromwell
 https://i.mjh.nz/.r/radio-ih-11277.aac
-#EXTINF:-1 group-title="NZ Radio",Brian FM Ashburton
-https://i.mjh.nz/.r/radio-ih-11274.aac
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-radio-brian-fm-ashburton1024.png" group-title="NZ Radio",Brian FM Ashburton
 https://i.mjh.nz/.r/radio-brian-fm-ashburton.aac
+#EXTINF:-1 group-title="NZ Radio",Brian FM Ashburton
+https://i.mjh.nz/.r/radio-ih-11274.aac
 #EXTINF:-1 group-title="NZ Radio",Brian FM Christchurch
 https://i.mjh.nz/.r/radio-ih-11273.aac
 #EXTINF:-1 group-title="NZ Radio",Brian FM Marlborough
@@ -1999,10 +1999,10 @@ https://i.mjh.nz/.r/10-hardcorepawn.m3u8
 https://i.mjh.nz/.r/hardcorepawn-fast.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-10-hardcorepawn1024.png" group-title="Canberra TV",Hardcore Pawn
 https://i.mjh.nz/.r/10-hardcorepawn.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-hardcorepawn-fast1024.png" group-title="Darwin TV",Hardcore Pawn
-https://i.mjh.nz/.r/hardcorepawn-fast.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-10-hardcorepawn1024.png" group-title="Darwin TV",Hardcore Pawn
 https://i.mjh.nz/.r/10-hardcorepawn.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-hardcorepawn-fast1024.png" group-title="Darwin TV",Hardcore Pawn
+https://i.mjh.nz/.r/hardcorepawn-fast.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-hardcorepawn-fast1024.png" group-title="Hobart TV",Hardcore Pawn
 https://i.mjh.nz/.r/hardcorepawn-fast.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-10-hardcorepawn1024.png" group-title="Hobart TV",Hardcore Pawn
@@ -2295,10 +2295,10 @@ https://i.mjh.nz/.r/radio-rv-rhythmalps-7b777d.m3u8
 https://i.mjh.nz/.r/radio-rv-breezesoothingsounds247-cf2332.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-radio-ih-99521024.png" group-title="Radio",LiQUORiCE.fm
 https://i.mjh.nz/.r/radio-ih-9952
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-radio-rv-lifefm-e85ebc1024.png" group-title="NZ Radio",Life FM
-https://i.mjh.nz/.r/radio-rv-lifefm-e85ebc.mp3
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-radio-ih-69381024.png" group-title="NZ Radio",Life FM
 https://i.mjh.nz/.r/radio-ih-6938.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-radio-rv-lifefm-e85ebc1024.png" group-title="NZ Radio",Life FM
+https://i.mjh.nz/.r/radio-rv-lifefm-e85ebc.mp3
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-radio-ih-105251024.png" group-title="Radio",Local Sounds Radio
 https://i.mjh.nz/.r/radio-ih-10525
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-radio-rv-lofibeats-159b181024.png" group-title="NZ Radio",Lofi Beats
@@ -2311,22 +2311,6 @@ https://i.mjh.nz/.r/radio-ih-7073.m3u8
 https://i.mjh.nz/.r/radio-rv-lukecombs-2e8a0e.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-radio-rv-mad-3d6a821024.png" group-title="NZ Radio",MAD FM
 https://i.mjh.nz/.r/radio-rv-mad-3d6a82
-#EXTINF:-1 group-title="Other Channels",MLC Major League Cricket MISC515
-https://i.mjh.nz/.r/misc515-fast.m3u8
-#EXTINF:-1 group-title="Adelaide TV",MLC Major League Cricket MISC515
-https://i.mjh.nz/.r/misc515-fast.m3u8
-#EXTINF:-1 group-title="Canberra TV",MLC Major League Cricket MISC515
-https://i.mjh.nz/.r/misc515-fast.m3u8
-#EXTINF:-1 group-title="Darwin TV",MLC Major League Cricket MISC515
-https://i.mjh.nz/.r/misc515-fast.m3u8
-#EXTINF:-1 group-title="Hobart TV",MLC Major League Cricket MISC515
-https://i.mjh.nz/.r/misc515-fast.m3u8
-#EXTINF:-1 group-title="Melbourne TV",MLC Major League Cricket MISC515
-https://i.mjh.nz/.r/misc515-fast.m3u8
-#EXTINF:-1 group-title="Perth TV",MLC Major League Cricket MISC515
-https://i.mjh.nz/.r/misc515-fast.m3u8
-#EXTINF:-1 group-title="Sydney TV",MLC Major League Cricket MISC515
-https://i.mjh.nz/.r/misc515-fast.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-10-mtvgeordieshore1024.png" group-title="Other Channels",MTV Geordie Shore
 https://i.mjh.nz/.r/10-mtvgeordieshore.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-10-mtvgeordieshore1024.png" group-title="Adelaide TV",MTV Geordie Shore
@@ -2865,22 +2849,6 @@ https://i.mjh.nz/.r/10-prisoner-cell-block-h.m3u8
 https://i.mjh.nz/.r/10-prisoner-cell-block-h.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-10-prisoner-cell-block-h1024.png" group-title="Sydney TV",Prisoner: Cell Block H
 https://i.mjh.nz/.r/10-prisoner-cell-block-h.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-10-projectrunway1024.png" group-title="Other Channels",Project Runway
-https://i.mjh.nz/.r/10-projectrunway.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-10-projectrunway1024.png" group-title="Adelaide TV",Project Runway
-https://i.mjh.nz/.r/10-projectrunway.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-10-projectrunway1024.png" group-title="Canberra TV",Project Runway
-https://i.mjh.nz/.r/10-projectrunway.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-10-projectrunway1024.png" group-title="Darwin TV",Project Runway
-https://i.mjh.nz/.r/10-projectrunway.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-10-projectrunway1024.png" group-title="Hobart TV",Project Runway
-https://i.mjh.nz/.r/10-projectrunway.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-10-projectrunway1024.png" group-title="Melbourne TV",Project Runway
-https://i.mjh.nz/.r/10-projectrunway.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-10-projectrunway1024.png" group-title="Perth TV",Project Runway
-https://i.mjh.nz/.r/10-projectrunway.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-10-projectrunway1024.png" group-title="Sydney TV",Project Runway
-https://i.mjh.nz/.r/10-projectrunway.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-radio-rv-pure2000s-61fefa1024.png" group-title="NZ Radio",Pure 2000s
 https://i.mjh.nz/.r/radio-rv-pure2000s-61fefa.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-radio-rv-pure2010s-a964111024.png" group-title="NZ Radio",Pure 2010s
@@ -3065,10 +3033,10 @@ https://i.mjh.nz/.r/redbull-tv.m3u8
 https://i.mjh.nz/.r/redbull-tv.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-radio-rv-retrohitradio-6384101024.png" group-title="NZ Radio",Retro Hit Radio
 https://i.mjh.nz/.r/radio-rv-retrohitradio-638410
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-radio-rv-rhema-94f0cf1024.png" group-title="NZ Radio",Rhema
-https://i.mjh.nz/.r/radio-rv-rhema-94f0cf.mp3
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-radio-ih-69371024.png" group-title="NZ Radio",Rhema
 https://i.mjh.nz/.r/radio-ih-6937.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-radio-rv-rhema-94f0cf1024.png" group-title="NZ Radio",Rhema
+https://i.mjh.nz/.r/radio-rv-rhema-94f0cf.mp3
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-radio-rv-phonkdup-1f4c9b1024.png" group-title="NZ Radio",Rhythm & Vines Mixtape
 https://i.mjh.nz/.r/radio-rv-phonkdup-1f4c9b.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-radio-rv-edgepres247-9392141024.png" group-title="NZ Radio",Rihanna
@@ -3621,10 +3589,10 @@ http://141.94.192.58:8080/play/6B9UgrzhWEJxW-h-MDrP-vJZ4ECM4geK3p0NmKZaFBg/ts
 http://cord-cutter.net:8080/hq3y4G/234247/137719
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/sky-nwvfv1024.png" group-title="Extra: UK | Sky Sports",Sky Sports+ [BU]
 http://141.94.192.58:8080/play/WMe7L-px_CzLiW3E1v268AZS05ncbNamNjnhDh71mKg/ts
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-radio-sleep-radio1024.png" group-title="NZ Radio",Sleep Radio
-https://i.mjh.nz/.r/radio-sleep-radio
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-radio-rv-sleepradio-9409a21024.png" group-title="NZ Radio",Sleep Radio
 https://i.mjh.nz/.r/radio-rv-sleepradio-9409a2
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-radio-sleep-radio1024.png" group-title="NZ Radio",Sleep Radio
+https://i.mjh.nz/.r/radio-sleep-radio
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-radio-rv-smooth-05b0311024.png" group-title="NZ Radio",Smooth FM
 https://i.mjh.nz/.r/radio-rv-smooth-05b031
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-snowy-mountains1024.png" group-title="Sydney TV",Snowy Mountains Television
@@ -3731,6 +3699,22 @@ http://apexelite.xyz:5050/obconline015/97mmy39h8g/695971
 https://i.mjh.nz/.r/radio-rv-starradio-70b09d.mp3
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-radio-rv-statehighway1-8bc0fc1024.png" group-title="NZ Radio",State Highway 1
 https://i.mjh.nz/.r/radio-rv-statehighway1-8bc0fc.m3u8
+#EXTINF:-1 group-title="Other Channels",State of Origin 2026: Exclusive Cams
+https://i.mjh.nz/.r/state-of-origin-2026-exclusive-cams-fast.m3u8
+#EXTINF:-1 group-title="Adelaide TV",State of Origin 2026: Exclusive Cams
+https://i.mjh.nz/.r/state-of-origin-2026-exclusive-cams-fast.m3u8
+#EXTINF:-1 group-title="Canberra TV",State of Origin 2026: Exclusive Cams
+https://i.mjh.nz/.r/state-of-origin-2026-exclusive-cams-fast.m3u8
+#EXTINF:-1 group-title="Darwin TV",State of Origin 2026: Exclusive Cams
+https://i.mjh.nz/.r/state-of-origin-2026-exclusive-cams-fast.m3u8
+#EXTINF:-1 group-title="Hobart TV",State of Origin 2026: Exclusive Cams
+https://i.mjh.nz/.r/state-of-origin-2026-exclusive-cams-fast.m3u8
+#EXTINF:-1 group-title="Melbourne TV",State of Origin 2026: Exclusive Cams
+https://i.mjh.nz/.r/state-of-origin-2026-exclusive-cams-fast.m3u8
+#EXTINF:-1 group-title="Perth TV",State of Origin 2026: Exclusive Cams
+https://i.mjh.nz/.r/state-of-origin-2026-exclusive-cams-fast.m3u8
+#EXTINF:-1 group-title="Sydney TV",State of Origin 2026: Exclusive Cams
+https://i.mjh.nz/.r/state-of-origin-2026-exclusive-cams-fast.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-radio-rv-static-c5752d1024.png" group-title="NZ Radio",Static
 https://i.mjh.nz/.r/radio-rv-static-c5752d
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-radio-rv-fitmix247-b52c6e1024.png" group-title="NZ Radio",Summer Tour
@@ -4243,6 +4227,22 @@ https://i.mjh.nz/.r/radio-ih-9689.aac
 https://i.mjh.nz/.r/radio-ih-9939.aac
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-radio-ih-106321024.png" group-title="Radio",Vision Worship
 https://i.mjh.nz/.r/radio-ih-10632.aac
+#EXTINF:-1 group-title="Other Channels",WAFL
+https://i.mjh.nz/.r/misc511-fast.m3u8
+#EXTINF:-1 group-title="Adelaide TV",WAFL
+https://i.mjh.nz/.r/misc511-fast.m3u8
+#EXTINF:-1 group-title="Canberra TV",WAFL
+https://i.mjh.nz/.r/misc511-fast.m3u8
+#EXTINF:-1 group-title="Darwin TV",WAFL
+https://i.mjh.nz/.r/misc511-fast.m3u8
+#EXTINF:-1 group-title="Hobart TV",WAFL
+https://i.mjh.nz/.r/misc511-fast.m3u8
+#EXTINF:-1 group-title="Melbourne TV",WAFL
+https://i.mjh.nz/.r/misc511-fast.m3u8
+#EXTINF:-1 group-title="Perth TV",WAFL
+https://i.mjh.nz/.r/misc511-fast.m3u8
+#EXTINF:-1 group-title="Sydney TV",WAFL
+https://i.mjh.nz/.r/misc511-fast.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-radio-rv-maiallstars247-90d06a1024.png" group-title="NZ Radio",Waiata Reo Maori
 https://i.mjh.nz/.r/radio-rv-maiallstars247-90d06a.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-wairarapa-tv1024.png" group-title="NZ TV",Wairarapa TV
@@ -4291,18 +4291,18 @@ https://i.mjh.nz/.r/radio-ih-10474
 https://i.mjh.nz/.r/radio-ih-9750
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-radio-rv-georgesnowtunes247-43b7c41024.png" group-title="NZ Radio",Whitney Houston
 https://i.mjh.nz/.r/radio-rv-georgesnowtunes247-43b7c4.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-10-wicked-tuna1024.png" group-title="Other Channels",Wicked Tuna
-https://i.mjh.nz/.r/10-wicked-tuna.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-wtn-fast1024.png" group-title="Other Channels",Wicked Tuna
 https://i.mjh.nz/.r/wtn-fast.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-10-wicked-tuna1024.png" group-title="Other Channels",Wicked Tuna
+https://i.mjh.nz/.r/10-wicked-tuna.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-wtn-fast1024.png" group-title="Adelaide TV",Wicked Tuna
 https://i.mjh.nz/.r/wtn-fast.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-10-wicked-tuna1024.png" group-title="Adelaide TV",Wicked Tuna
 https://i.mjh.nz/.r/10-wicked-tuna.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-wtn-fast1024.png" group-title="Canberra TV",Wicked Tuna
-https://i.mjh.nz/.r/wtn-fast.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-10-wicked-tuna1024.png" group-title="Canberra TV",Wicked Tuna
 https://i.mjh.nz/.r/10-wicked-tuna.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-wtn-fast1024.png" group-title="Canberra TV",Wicked Tuna
+https://i.mjh.nz/.r/wtn-fast.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-wtn-fast1024.png" group-title="Darwin TV",Wicked Tuna
 https://i.mjh.nz/.r/wtn-fast.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-10-wicked-tuna1024.png" group-title="Darwin TV",Wicked Tuna
@@ -4315,10 +4315,10 @@ https://i.mjh.nz/.r/10-wicked-tuna.m3u8
 https://i.mjh.nz/.r/wtn-fast.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-10-wicked-tuna1024.png" group-title="Melbourne TV",Wicked Tuna
 https://i.mjh.nz/.r/10-wicked-tuna.m3u8
-#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-10-wicked-tuna1024.png" group-title="Perth TV",Wicked Tuna
-https://i.mjh.nz/.r/10-wicked-tuna.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-wtn-fast1024.png" group-title="Perth TV",Wicked Tuna
 https://i.mjh.nz/.r/wtn-fast.m3u8
+#EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-10-wicked-tuna1024.png" group-title="Perth TV",Wicked Tuna
+https://i.mjh.nz/.r/10-wicked-tuna.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-wtn-fast1024.png" group-title="Sydney TV",Wicked Tuna
 https://i.mjh.nz/.r/wtn-fast.m3u8
 #EXTINF:-1 tvg-logo="https://raw.githubusercontent.com/josharghhh/AU-IPTV_StremioAddon/main/images/mjh-10-wicked-tuna1024.png" group-title="Sydney TV",Wicked Tuna
